@@ -1,0 +1,8 @@
+.main {
+  viewport-fill: black;
+}
+
+#message {
+  font-size: 32;
+  fill: white;
+}

@@ -1,0 +1,18 @@
+{
+  "fitbit": {
+    "appUUID": "ab123456-ab12-cd34-ef56-ghijkl123456",
+    "appType": "app",
+    "appDisplayName": "Starter App",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Starter App"
+      }
+    }
+  }
+}
