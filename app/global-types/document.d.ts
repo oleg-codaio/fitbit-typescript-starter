@@ -1,9 +1,9 @@
 declare module 'document' {
-  interface Element {
+  export interface Element {
     text: string;
   }
 
-  interface Document {
+  export interface Document {
     getElementById(id: string): Element | null;
   }
 

@@ -1,6 +1,6 @@
 {
   "fitbit": {
-    "appUUID": "ab123456-ab12-cd34-ef56-ghijkl123456",
+    "appUUID": "Set this to the Fitbit Studio-generated UUID. If you lost it, just rename package.json to something else and re-run the build to get a fresh package.json.",
     "appType": "app",
     "appDisplayName": "Starter App",
     "iconFile": "resources/icon.png",
@@ -14,5 +14,17 @@
         "name": "Starter App"
       }
     }
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.2",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "proxyquire": "^2.0.1",
+    "ts-node": "^6.1.1",
+    "typescript": "2.8.3"
+  },
+  "dependencies": {
+    "@types/proxyquire": "^1.3.28"
   }
 }

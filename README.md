@@ -56,9 +56,15 @@ Makefile with the following commands:
 
 - `make`: Builds all 3 projects, validating types
 - `make lint`: Lints all 3 projects
+- `make test`: Runs Mocha unit tests
 
 Modern IDEs such as VS Code should automatically expose compiler and linter errors, but these commands should still
 be useful for anyone working with command line, CI, etc.
+
+## Testing
+
+This project hooks up unit test support as well, here, but with a caveat. Since implemented versions of the Fitbit
+APIs aren't available, you won't really be able to write "integration tests", and imported modules must be stubbed.
 
 ## Contributing
 

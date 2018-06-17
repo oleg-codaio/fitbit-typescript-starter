@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "target": "ES2016",
+    "target": "es6",
     "module": "umd",
     "lib": ["es5", "es2015.collection", "es2015.iterable", "es2015.promise"],
     "allowJs": false,
-    "checkJs": false,
     "jsx": "react",
     "sourceMap": false,
+    "esModuleInterop": true,
 
     "strict": true,
     "noImplicitAny": true

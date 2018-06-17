@@ -35,3 +35,7 @@ _lint-settings:
 
 .PHONY: lint
 lint: _lint-app _lint-companion _lint-settings
+
+.PHONY: test
+test:
+	node_modules/.bin/mocha -r ts-node/register **/*_test.ts
